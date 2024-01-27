@@ -9,6 +9,8 @@ CREATE DATABASE dvdrental WITH TEMPLATE = template0 ENCODING = 'UTF8';
 
 ALTER DATABASE dvdrental OWNER TO postgres;
 
+
+
 \connect dvdrental
 
 SET statement_timeout = 0;
